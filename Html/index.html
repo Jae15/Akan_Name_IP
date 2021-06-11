@@ -1,17 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>Find Out Your Akan Name</title>
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <head>
 
-</head>
-<body>
-    
-</body>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="css/style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <title>Akan Name Calculator</title>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <h1>Find Your Akan Name</h1>
+  <body>
+    <p>
+      This web application will use your date of birth to compute the day of the
+      week on which you were born. It will then assign your Akan Name according
+      to your respective gender.
+    </p>
+<div class="container">
+    <form action="">
+        <div class="input-group">
+            <span class="input-group-text">Date of Birth</span>
+            <input type="number" aria-label="Century" class="form-control" placeholder="CC">
+            <input type="number" aria-label="Year" class="form-control" placeholder="YY">
+            <input type="number" aria-label="Month" class="form-control" placeholder="MM">
+            <input type="number" aria-label="Date" class="form-control" placeholder="DD">
+          </div>
+         <div>
+             <div class="label m-2"> Enter your Gender </div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+              </select>
+         </div>
+          <div class="button m-2">
+              <button>Compute Your Akan Name</button>
+        </form>
+</div>
+
+      </div>
+  </body>
 </html>
