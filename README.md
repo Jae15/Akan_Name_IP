@@ -1,7 +1,7 @@
 ## Akan_Name_IP
 #### Janet Mwangi
 ## **Description**
-#### This site is a web application that utilizes a user's date of birth to compute the day of the week they were born and then allocates them an Akan name that corresponds to their respective genders.
+#### This is a web application that utilizes a user's date of birth to compute the day of the week they were born and then allocates them an Akan name that corresponds to their respective genders.
 
 ## TECHNOLOGIES USED
 ​
