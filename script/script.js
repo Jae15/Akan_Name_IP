@@ -9,7 +9,6 @@ function calculate(){
   var femaleAkanNames=[" Akosua", " Adwoa", " Abenaa", " Akua", " Yaa", " Afua", " Ama"]
 
 
-// make absolute to remove negative calculations
   var yourDayOfWeek =  Math.abs(Math.round((((cc/4) -2*cc-1) + ((5*yy/4)) + ((26*(mm+1)/10)) + dd )%7));
 
   console.log(`yourDayOfWeek`, yourDayOfWeek)
@@ -67,6 +66,15 @@ function calculate(){
       if(gender === 'female'){
         console.log("your Akan name is" +femaleAkanNames[yourDayOfWeek])
       }
+      if(yourDayOfWeek === 5) {
+        if(gender === 'male') {
+          console.log("your Akan name is" +maleAkanNames[yourDayOfWeek])
+        }
+        if(gender === 'female'){
+          console.log("your Akan name is" +femaleAkanNames[yourDayOfWeek])
+        }
+      }
+      
     }
 
   }
