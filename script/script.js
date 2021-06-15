@@ -25,89 +25,91 @@ function calculate(){
       console.log("No Akan Name for you")
     }
   }
-  else if(yourDayOfWeek === 2){
-    if(gender == male){
-          console.log("your Akan name is" +maleAkanaNames[1])
-    }
-    else if( gender == female){
-    console.log("your Akan name is" +femaleAkanaNames[1])
-    }
-    else{
-      console.log("your Akan name is")
-    }
-  }
- else if(yourDayOfWeek === 3){
+
+
+//    if(yourDayOfWeek === 2){
+//     if(gender == male){
+//           console.log("your Akan name is" +maleAkanaNames[1])
+//     }
+//     else if( gender == female){
+//     console.log("your Akan name is" +femaleAkanaNames[1])
+//     }
+//     else{
+//       console.log("your Akan name is")
+//     }
+//   }
+//  else if(yourDayOfWeek === 3){
     
-    if(gender == male){
-          console.log("your Akan name is" +maleAkanaNames[2])
-    }
-    else if( gender == female){
-    console.log("Your Akan name is" +femaleAkanaNames[2])
-    }
-    else{
-      console.log("No Akan Name for you")
-    }
-  }
-  else if(yourDayOfWeek  ===4){
+//     if(gender == male){
+//           console.log("your Akan name is" +maleAkanaNames[2])
+//     }
+//     else if( gender == female){
+//     console.log("Your Akan name is" +femaleAkanaNames[2])
+//     }
+//     else{
+//       console.log("No Akan Name for you")
+//     }
+//   }
+//   else if(yourDayOfWeek  ===4){
     
-    if(gender == male){
-          console.log("Your Akan name is" +maleAkanaNames[3])
-    }
-    else if( gender == female){
-    console.log("Your Akan name is" +femaleAkanaNames[3])
-    }
-    else{
-      console.log("No Akan Name for you")
-    }
-  }
-  else if(yourDayOfWeek === 5){
+//     if(gender == male){
+//           console.log("Your Akan name is" +maleAkanaNames[3])
+//     }
+//     else if( gender == female){
+//     console.log("Your Akan name is" +femaleAkanaNames[3])
+//     }
+//     else{
+//       console.log("No Akan Name for you")
+//     }
+//   }
+//   else if(yourDayOfWeek === 5){
     
-    if(gender == male){
-          console.log("Your Akan name is" +maleAkanaNames[4])
-    }
-    else if( gender == female){
-    console.log("Your Akan name is" +femaleAkanaNames[4])
-    }
-    else{
-      console.log("No Akan Name for you")
-    }
-  }
-  else if(yourDayOfWeek  === 6){
+//     if(gender == male){
+//           console.log("Your Akan name is" +maleAkanaNames[4])
+//     }
+//     else if( gender == female){
+//     console.log("Your Akan name is" +femaleAkanaNames[4])
+//     }
+//     else{
+//       console.log("No Akan Name for you")
+//     }
+//   }
+//   else if(yourDayOfWeek  === 6){
    
-    if(gender == male){
-          console.log("Your Akan name is" +maleAkanaNames[5])
-    }
-   else if( gender == female){
-    console.log("Your Akan name is" +femaleAkanaNames[5])
-    }
-    else{
-      console.log("No Akan Name for you")
-    }
-  }
- else if(yourDayOfWeek === 7){
+//     if(gender == male){
+//           console.log("Your Akan name is" +maleAkanaNames[5])
+//     }
+//    else if( gender == female){
+//     console.log("Your Akan name is" +femaleAkanaNames[5])
+//     }
+//     else{
+//       console.log("No Akan Name for you")
+//     }
+//   }
+//  else if(yourDayOfWeek === 7){
   
-    if(gender == male){
-          console.log("Your Akan name is" +maleAkanaNames[6])
-    }
-    else if( gender == female){
-    console.log("Your Akan name is" +femaleAkanaNames[6])
-    }
-    else{
-      console.log("No Akan Name for you")
-    }
-  }
-else{
-  console.log("wrong calculation")
-}
-    // console.log("you proceed")
-  }
-  else{
-    console.log("input a valid century")
-  }
-;
-}
-calculate()
-  }
+//     if(gender == male){
+//           console.log("Your Akan name is" +maleAkanaNames[6])
+//     }
+//     else if( gender == female){
+//     console.log("Your Akan name is" +femaleAkanaNames[6])
+//     }
+//     else{
+//       console.log("No Akan Name for you")
+//     }
+//   }
+// else{
+//   console.log("wrong calculation")
+// }
+//     // console.log("you proceed")
+//   }
+//   else{
+//     console.log("input a valid century")
+//   }
+// ;
+// }
+// calculate()
+//   }
 
   
   
