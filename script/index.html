@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Janet Mwangi Akan Name Project</title>
+</head>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<div class= "container">
+<h1>Find Your Akan Name</h1>
+<body>
+  <p>Akan names have their origin in Ghanian culture.</p>
+  <p>In Ghana, children get their first name according to the respective day in the week they were born.
+   <P>The following is an application that utilizes a user's date of birth to calculate the day of the week on which they were born and then allocates them an Akan name that corresponds to their respective genders.</P> 
+    
+      <h2>Enter Your Details Below to Generate Your Akan Name</h2>
+
+  <form>
+      <div class="input-group">
+  <span class="input-group-text">Enter Your Date of Birth Below</span>
+  <input id="dd" type="number" aria-label="First name" class="form-control" placeholder="dd">
+  <input id="mm" type="number" aria-label="Last name" class="form-control" placeholder="mm">
+  <input id="cc" type="number" aria-label="Last name" class="form-control" placeholder="cc">
+ <input id="yy" type="number" aria-label="Last name" class="form-control" placeholder="yy">
+
+</div>
+<select id="Gender" class="form-select" aria-label="Default select example">
+  <option selected>Choose Gender</option>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+
+</select>
+</div>
+<div>
+  <button type="button" onClick=calculate()>calculate</button>
+</div>
+</form>
+</div>
+<script src="../script/script.js"></script>
+
+</body>
+</html>
+
