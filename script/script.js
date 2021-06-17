@@ -17,68 +17,83 @@ function calculate(){
     console.log(`cc`, cc)
     if(yourDayOfWeek === 0) {
       if(gender === 'male') {
-        console.log("your Akan name is" +maleAkanNames[yourDayOfWeek])
+
+        document.getElementById("output").innerHTML="your Akan name is" +maleAkanNames[yourDayOfWeek];
       }
       if(gender === 'female'){
-        console.log("your Akan name is" +femaleAkanNames[yourDayOfWeek])
+
+        document.getElementById("output").innerHTML="your Akan name is" +femaleAkanNames[yourDayOfWeek];
       }
     }
 
     if(yourDayOfWeek === 1) {
       if(gender === 'male') {
-        console.log("your Akan name is" +maleAkanNames[yourDayOfWeek])
+
+        document.getElementById("output").innerHTML="your Akan name is" +maleAkanNames[yourDayOfWeek];
       }
       if(gender === 'female'){
-        console.log("your Akan name is" +femaleAkanNames[yourDayOfWeek])
+
+        document.getElementById("output").innerHTML="your Akan name is" +femaleAkanNames[yourDayOfWeek];
       }
     }
+
 
     if(yourDayOfWeek === 2) {
       if(gender === 'male') {
-        console.log("your Akan name is" +maleAkanNames[yourDayOfWeek])
+
+        document.getElementById("output").innerHTML="your Akan name is" +maleAkanNames[yourDayOfWeek];
       }
       if(gender === 'female'){
-        console.log("your Akan name is" +femaleAkanNames[yourDayOfWeek])
+
+        document.getElementById("output").innerHTML="your Akan name is" +femaleAkanNames[yourDayOfWeek];
       }
     }
 
+
     if(yourDayOfWeek === 3) {
       if(gender === 'male') {
-        console.log("your Akan name is" +maleAkanNames[yourDayOfWeek])
+
+        document.getElementById("output").innerHTML="your Akan name is" +maleAkanNames[yourDayOfWeek];
       }
       if(gender === 'female'){
-        console.log("your Akan name is" +femaleAkanNames[yourDayOfWeek])
+
+        document.getElementById("output").innerHTML="your Akan name is" +femaleAkanNames[yourDayOfWeek];
       }
     }
 
     if(yourDayOfWeek === 4) {
       if(gender === 'male') {
-        console.log("your Akan name is" +maleAkanNames[yourDayOfWeek])
+
+        document.getElementById("output").innerHTML="your Akan name is" +maleAkanNames[yourDayOfWeek];
       }
       if(gender === 'female'){
-        console.log("your Akan name is" +femaleAkanNames[yourDayOfWeek])
+
+        document.getElementById("output").innerHTML="your Akan name is" +femaleAkanNames[yourDayOfWeek];
       }
     }
+
     if(yourDayOfWeek === 5) {
       if(gender === 'male') {
-        console.log("your Akan name is" +maleAkanNames[yourDayOfWeek])
+
+        document.getElementById("output").innerHTML="your Akan name is" +maleAkanNames[yourDayOfWeek];
       }
       if(gender === 'female'){
-        console.log("your Akan name is" +femaleAkanNames[yourDayOfWeek])
+
+        document.getElementById("output").innerHTML="your Akan name is" +femaleAkanNames[yourDayOfWeek];
       }
-      if(yourDayOfWeek === 5) {
-        if(gender === 'male') {
-          console.log("your Akan name is" +maleAkanNames[yourDayOfWeek])
-        }
-        if(gender === 'female'){
-          console.log("your Akan name is" +femaleAkanNames[yourDayOfWeek])
-        }
+    }
+
+    if(yourDayOfWeek === 6) {
+      if(gender === 'male') {
+
+        document.getElementById("output").innerHTML="your Akan name is" +maleAkanNames[yourDayOfWeek];
       }
-      
+      if(gender === 'female'){
+
+        document.getElementById("output").innerHTML="your Akan name is" +femaleAkanNames[yourDayOfWeek];
+      }
+    }
+
     }
 
   }
-
-  document.getElementById("output").innerHTML=output;
-
-}
