@@ -79,4 +79,6 @@ function calculate(){
 
   }
 
+  document.getElementById("output").innerHTML=output;
+
 }
